@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
-
+    @IBOutlet var username: UILabel!
+    @IBAction func onSignOutTapped(_ sender: Any) {
+        self.performSegue(withIdentifier: "signOutUserSegue", sender: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,4 +27,3 @@ class ViewController: UIViewController {
 
 
 }
-
