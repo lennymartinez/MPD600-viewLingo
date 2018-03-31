@@ -140,12 +140,12 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController title="MainVC" id="BYZ-38-t0r" customClass="MainVC" customModule="viewLingo" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpX-Gs-HRy">
-                                <rect key="frame" x="0.0" y="49" width="375" height="90"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpX-Gs-HRy">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
                                 <color key="backgroundColor" red="0.0" green="0.14901960784313725" blue="0.28235294117647058" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="vS2-YM-Jn2"/>
@@ -155,8 +155,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9O-g5-Ojc">
-                                <rect key="frame" x="104" y="307" width="167" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9O-g5-Ojc">
+                                <rect key="frame" x="104" y="279" width="167" height="30"/>
                                 <color key="backgroundColor" red="0.41568627450980389" green="0.77254901960784317" blue="0.67843137254901964" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="YFB-UW-GcW"/>
@@ -178,8 +178,8 @@
                                     <segue destination="OpG-lr-Iuc" kind="show" identifier="signOutSegue" id="Liu-BP-6p3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GU4-rD-7Ml">
-                                <rect key="frame" x="104" y="436" width="167" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GU4-rD-7Ml">
+                                <rect key="frame" x="104" y="336" width="167" height="30"/>
                                 <color key="backgroundColor" red="0.41568627450000001" green="0.7725490196" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="167" id="MTN-Se-g6s"/>
@@ -735,8 +735,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="oph-k6-kcr"/>
-        <segue reference="wth-y7-DGl"/>
+        <segue reference="SDu-bk-vZy"/>
+        <segue reference="HHB-iE-1V9"/>
         <segue reference="m0w-uL-lNy"/>
     </inferredMetricsTieBreakers>
 </document>
