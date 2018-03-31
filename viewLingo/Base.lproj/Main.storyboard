@@ -43,7 +43,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go to Sign Up"/>
                                 <connections>
-                                    <action selector="goToSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTY-GM-AbQ"/>
                                     <segue destination="lgR-9P-Vad" kind="show" identifier="goToSignUpSegue" id="hOm-mX-B9G"/>
                                 </connections>
                             </button>
@@ -130,7 +129,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Sign Up User"/>
                                 <connections>
-                                    <action selector="onSignUpTapped:" destination="lgR-9P-Vad" eventType="touchUpInside" id="VXt-pM-iNk"/>
                                     <segue destination="ITe-pH-Abb" kind="show" identifier="signUpUserSegue" id="qoJ-Wh-j50"/>
                                 </connections>
                             </button>
@@ -139,7 +137,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Got to Sign In"/>
                                 <connections>
-                                    <action selector="goToSignIn:" destination="lgR-9P-Vad" eventType="touchUpInside" id="bk8-Bh-ruu"/>
                                     <segue destination="BYZ-38-t0r" kind="show" identifier="goToSignInSegue" id="1vm-Mp-RLL"/>
                                 </connections>
                             </button>
@@ -170,7 +167,6 @@
                     </view>
                     <connections>
                         <outlet property="emailTF" destination="CY4-R0-2hM" id="swy-e6-8UU"/>
-                        <outlet property="onSignUpTapped" destination="pNm-NE-cRi" id="qDg-jb-Uuh"/>
                         <outlet property="passwordTF" destination="TyI-bW-zHN" id="e89-ch-Mau"/>
                         <outlet property="usernameTF" destination="rYS-cP-gUH" id="BgD-8m-bBw"/>
                     </connections>

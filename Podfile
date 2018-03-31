@@ -6,18 +6,10 @@ target 'viewLingo' do
   use_frameworks!
 
   # Pods for viewLingo
-  pod 'Firebase/Core'
   pod 'Firebase'
-  pod 'Firebase/AdMob'
-  pod 'Firebase/Analytics'
+  pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Crash'
-  pod 'Firebase/Database'
-  pod 'Firebase/DynamicLinks'
-  pod 'Firebase/Invites'
-  pod 'Firebase/Messaging'
-  pod 'Firebase/Performance'
-  pod 'Firebase/RemoteConfig'
   pod 'Firebase/Storage'
 
   target 'viewLingoTests' do

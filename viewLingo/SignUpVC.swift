@@ -14,7 +14,7 @@ class SignUpVC: UIViewController {
     @IBOutlet var emailTF: UITextField!
     @IBOutlet var passwordTF: UITextField!
     @IBAction func onSignUpTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "signUpUserSegue", sender: nil)
+        //self.performSegue(withIdentifier: "signUpUserSegue", sender: nil)
     }
     
     @IBAction func goToSignIn(_ sender: Any) {

@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import FirebaseAuth
 
 class SignInVC: UIViewController {
 
@@ -40,9 +39,7 @@ class SignInVC: UIViewController {
         
     }
     
-    @IBAction func goToSignUp(_ sender: Any) {
-        self.performSegue(withIdentifier: "goToSignUpSegue", sender: nil)
-    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
