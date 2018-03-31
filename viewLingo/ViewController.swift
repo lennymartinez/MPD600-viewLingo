@@ -10,14 +10,24 @@ import UIKit
 import Firebase
 
 class ViewController: UIViewController {
-    @IBOutlet var username: UILabel!
+    @IBOutlet var usernameLabel: UILabel!
+    
     @IBAction func onSignOutTapped(_ sender: Any) {
-        self.performSegue(withIdentifier: "signOutUserSegue", sender: nil)
+        do {
+            try Auth.auth().signOut()
+            performSegue(withIdentifier: "signOutUserSegue", sender: nil)
+        } catch {
+            print(error)
+        }
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        guard let theUsername = Auth.auth().currentUser?.displayName else { return }
+        
+        usernameLabel.text = "Hello, \(theUsername)"
+        
     }
 
     override func didReceiveMemoryWarning() {
